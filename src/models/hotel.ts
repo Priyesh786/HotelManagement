@@ -16,7 +16,7 @@ export class Hotel{
         return this.roomsAvailable;
     }
     setroomAvailability(roomsToBook: number): void {
-        this.roomsAvailable -= roomsToBook;
+        this.roomsAvailable = roomsToBook;
     }
     getID(): number{
         return this.id;

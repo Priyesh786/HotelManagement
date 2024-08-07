@@ -11,7 +11,6 @@ function displayHotel(): void {
         }
     });
 }
-displayHotel();
 export {displayHotel};
 
 
